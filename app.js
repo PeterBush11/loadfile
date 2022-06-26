@@ -10,7 +10,7 @@ const methodOverride = require('method-override');
 
 const app = express();
 
-// Middleware
+// Middleware s
 app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
